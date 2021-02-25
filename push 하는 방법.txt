@@ -1,0 +1,27 @@
+push를 하는 과정 = 택배를 보내는 과정
+
+git = 택배기사 
+
+1. 상자를 구합니다.
+git init
+
+	*확인 하는 법* 
+.	git 이라는 파일이 있는지 확인!
+
+2. 물품을 상자에 담습니다.
+git add . 
+
+	*확인 하는 법* 
+	git status
+
+3. 목적지의 주소를 적습니다.
+git remote add <name> URL  
+
+	*확인 하는 법* 
+	git remote -v
+
+4. 물품에 대한 설명을 적습니다.
+git commit -m "프로젝트 설명"
+
+5. 물품을 보냅니다.
+git push <name> <branch>

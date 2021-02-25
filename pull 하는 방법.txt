@@ -1,0 +1,9 @@
+pull 하는 방법
+
+1. clone 명령어 사용하기
+git clone URL
+
+2. pull 명령어 사용하기
+git init
+git remote add <name> URL
+git pull <name> <branch>  
